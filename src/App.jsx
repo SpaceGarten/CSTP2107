@@ -1,12 +1,13 @@
 import React from 'react';
-import QuickCard from './components/QuickCard'; 
+import HomePage from './pages/HomePage';
 
-function Main() {
+function App() {
   return (
-    <div className="QuickCard">
-        <QuickCard />
+    <div>
+      <h1>Your App</h1>
+      <HomePage />
     </div>
   );
 }
 
-export default Main;
+export default App;
