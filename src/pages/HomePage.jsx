@@ -1,11 +1,10 @@
-// In HomePage.jsx
 import React from 'react';
-import QuickCard from './components/QuickCard';
+import QuizListContainer from '../components/QuizListContainer';
 
 function HomePage() {
   return (
-    <div className="QuickCard">
-      <QuickCard />
+    <div>
+      <QuizListContainer />
     </div>
   );
 }
