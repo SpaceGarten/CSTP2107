@@ -1,9 +1,9 @@
 import React from 'react';
-import App from './components/App';
+import QuickCard from './components/QuickCard'; 
 
 function Main() {
   return (
-    <div className="App">
+    <div className="QuickCard">
         <QuickCard />
     </div>
   );
